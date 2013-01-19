@@ -1,8 +1,3 @@
-body {
-  font: 500 13px/1.5 "Lucida Grande",Verdana,"Helvetica",Arial;
-  color: #4b4a49;
-}
-
 #feedback-anchor textarea:focus {
   outline: none;
 }
