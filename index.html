@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Jquery.feedback by siong1987</title>
+
+    <link rel="stylesheet" href="/themes/minimal/stylesheets/styles.css">
+    <link rel="stylesheet" href="/themes/minimal/stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Jquery.feedback</h1>
+        <p>A clone of branch(http://branch.com) feedback widget.</p>
+
+        <p class="view"><a href="https://github.com/siong1987/jquery.feedback">View the Project on GitHub <small>siong1987/jquery.feedback</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/siong1987/jquery.feedback/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/siong1987/jquery.feedback/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/siong1987/jquery.feedback">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>jQuery.Feedback</h1>
+
+<p>I create this clone of the <a href="http://branch.com/">Branch</a>'s feedback widget on the site.
+You can check out the demo on this <a href="http://siong1987.com/jquery.feedback/">site</a> at the bottom right corner.</p>
+
+<h2>Usage</h2>
+
+<p>First, you have to include both <code>js/jquery.feedback.js</code> and
+<code>css/jquery.feedback.css</code> files on your page.</p>
+
+<p>Then, create a dom with id <code>feedback-anchor</code> on your page:</p>
+
+<div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"feedback-anchor"</span><span class="nt">&gt;&lt;/div&gt;</span>
+</pre></div>
+
+<p>Then, you can initialize the Feedback widget on your page via:</p>
+
+<div class="highlight"><pre><span class="nx">Feedback</span><span class="p">.</span><span class="nx">init</span>
+  <span class="nv">placeholder: </span><span class="s">'Feedback? Let us know here.'</span>
+  <span class="nv">send_callback: </span><span class="o">-&gt;</span>
+  <span class="nv">thanks_message: </span><span class="s">"""</span>
+<span class="s">&lt;p&gt;Thanks for your feedback!&lt;/p&gt;</span>
+<span class="s">&lt;div class="indent"&gt;</span>
+<span class="s">  - siong1987</span>
+<span class="s">&lt;/div&gt;</span>
+<span class="s">    """</span>
+</pre></div>
+
+<ul>
+<li>
+<code>placeholder</code>: the placeholder message when user sees the Feedback
+widget.</li>
+<li>
+<code>send_callback</code>: the callback function after the user clicks on the
+Send button.</li>
+<li>
+<code>thanks_message</code>: the message the user sees after the feedback message
+is sent.</li>
+</ul><h2>Help/Issues</h2>
+
+<p>The code is extremely simple. Just read the source code if you have any
+questions. Or, you can create a GitHub issue, I will look at them as
+soon as I have the time.</p>
+
+<h2>Contact</h2>
+
+<p>Let me know if you want to talk to me about this plugin. You can email
+me siong(1900+87) (at) gmail (dot) com.</p>
+
+<h2>LICENSE</h2>
+
+<p>(The MIT License)</p>
+
+<p>Copyright (c) 2013 Teng Siong Ong</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/siong1987">siong1987</a></p>
+        <p><small>Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/themes/minimal/javascripts/scale.fix.js"></script>
+    
+  
+</body><style type="text/css"></style></html>
