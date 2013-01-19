@@ -44,7 +44,7 @@
         container_textarea = container.find('textarea');
         if (container_textarea.val() !== '') {
           $(this).closest('.feedback-container').addClass('success-state');
-          opts.send_callback();
+          opts.send_callback(container_textarea.val());
           return setTimeout(function() {
             container_textarea.val('');
             return container.removeClass('success-state expanded');

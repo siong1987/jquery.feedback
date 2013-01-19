@@ -49,7 +49,7 @@ class window.Feedback
       if (container_textarea.val() != '')
         $(@).closest('.feedback-container').addClass('success-state')
 
-        opts.send_callback()
+        opts.send_callback(container_textarea.val())
 
         # timer to close the feedback box
         setTimeout ->

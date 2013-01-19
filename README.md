@@ -30,8 +30,8 @@ Feedback.init
 
 * `placeholder`: the placeholder message when user sees the Feedback
 widget.
-* `send_callback`: the callback function after the user clicks on the
-Send button.
+* `send_callback(text)`: the callback function after the user clicks on the
+Send button by returning the text in the form.
 * `thanks_message`: the message the user sees after the feedback message
 is sent.
 
