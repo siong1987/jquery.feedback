@@ -8,7 +8,7 @@ You can check out the demo on this [site][2] at the bottom right corner.
 First, you have to include both `js/jquery.feedback.js` and
 `css/jquery.feedback.css` files on your page.
 
-Then, create a dom on your page:
+Then, create a dom with id `feedback-anchor` on your page:
 
 ```html
 <div id="feedback-anchor"></div>
