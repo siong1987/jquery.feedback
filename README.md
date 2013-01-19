@@ -71,7 +71,6 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[1]: http://documentcloud.github.com/backbone/
-[2]: http://siong1987.com/posts/introducting-backbone-routes/
-[3]: https://github.com/siong1987/forkbin
+[1]: http://branch.com/
+[2]: http://siong1987.com/jquery.feedback/
 
