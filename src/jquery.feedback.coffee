@@ -1,9 +1,12 @@
 class window.Feedback
+  _initialized = false
   @init: (options) ->
     feedback = new @
     opts = $.extend {}, feedback.default_options, options
     feedback.createFeedbackBox opts
-    feedback.bindEvents opts
+    unless _initialized
+      _initialized = true
+      feedback.bindEvents opts
   
   default_options:
     placeholder: 'Feedback? Let us know here.'
