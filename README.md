@@ -5,7 +5,7 @@ It is also being used at [CupidWithFriends][2].
 
 ## Demo
 
-![Demo](/path/to/img.jpg)
+![Demo](https://raw.github.com/siong1987/jquery.feedback/master/images/jquery.feedback.gif)
 
 ## Usage
 
