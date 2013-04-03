@@ -1,7 +1,11 @@
 # jQuery.Feedback
 
 I create this clone of the [Branch][1]'s feedback widget on the site.
-You can check out the demo on this [site][2] at the bottom right corner.
+It is also being used at [CupidWithFriends][2].
+
+## Demo
+
+![Demo](/path/to/img.jpg)
 
 ## Usage
 
@@ -72,5 +76,5 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 [1]: http://branch.com/
-[2]: http://siong1987.com/jquery.feedback/
+[2]: http://www.cupidwithfriends.com/
 
