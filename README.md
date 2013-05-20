@@ -25,6 +25,7 @@ Feedback.init
   placeholder: 'Feedback? Let us know here.'
   send_callback: ->
   thanks_message: """
+  button_name: 'Send'
 <p>Thanks for your feedback!</p>
 <div class="indent">
   - siong1987
@@ -38,6 +39,7 @@ widget.
 Send button by returning the text in the form.
 * `thanks_message`: the message the user sees after the feedback message
 is sent.
+* `button_name`: the send button's name.  It doesn't have to be 'Send', right?
 
 ## Help/Issues
 
