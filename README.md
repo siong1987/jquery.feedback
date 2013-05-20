@@ -24,7 +24,7 @@ Then, you can initialize the Feedback widget on your page via:
 Feedback.init
   placeholder: 'Feedback? Let us know here.'
   send_callback: ->
-  thanks_message: """
+  thanks_message: ""
   button_name: 'Send'
 <p>Thanks for your feedback!</p>
 <div class="indent">
