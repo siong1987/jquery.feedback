@@ -22,11 +22,12 @@
     Feedback.prototype.default_options = {
       placeholder: 'Feedback? Let us know here.',
       send_callback: function() {},
-      thanks_message: "<p>Thanks for your feedback!</p>\n<div class=\"indent\">\n  - siong1987\n</div>"
+      thanks_message: "<p>Thanks for your feedback!</p>\n<div class=\"indent\">\n  - siong1987\n</div>",
+      button_name: "Send"
     };
 
     Feedback.prototype.createFeedbackBox = function(opts) {
-      return $('#feedback-anchor').html("<div class=\"feedback-container\">\n  <div class=\"form\">\n    <textarea class=\"input\" placeholder=\"" + opts.placeholder + "\"></textarea>\n    <div class=\"actions\">\n      <button class=\"button submit\">Send</button>\n    </div>\n  </div>\n  <div class=\"success\">" + opts.thanks_message + "</div>\n</div>");
+      return $('#feedback-anchor').html("<div class=\"feedback-container\">\n  <div class=\"form\">\n    <textarea class=\"input\" placeholder=\"" + opts.placeholder + "\"></textarea>\n    <div class=\"actions\">\n      <button class=\"button submit\">" + opts.button_name + "</button>\n    </div>\n  </div>\n  <div class=\"success\">" + opts.thanks_message + "</div>\n</div>");
     };
 
     Feedback.prototype.bindEvents = function(opts) {
