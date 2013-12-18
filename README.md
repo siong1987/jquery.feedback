@@ -1,7 +1,6 @@
 # jQuery.Feedback
 
-I create this clone of the [Branch][1]'s feedback widget on the site.
-It is also being used at [CupidWithFriends][2].
+This is a clone of the [Branch][1]'s feedback widget on the site.
 
 ## Demo
 
