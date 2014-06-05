@@ -35,7 +35,9 @@ Feedback.init
 * `placeholder`: the placeholder message when user sees the Feedback
 widget.
 * `send_callback(text)`: the callback function after the user clicks on the
-Send button by returning the text in the form.
+Send button by returning the text in the form.  This is usually where you will
+send a post request to your own server to actually send out a notification(email, 
+sms, or what not) to yourself.
 * `thanks_message`: the message the user sees after the feedback message
 is sent.
 * `button_name`: the send button's name.  It doesn't have to be 'Send', right?
